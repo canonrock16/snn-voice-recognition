@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "distributed_processing"
+version = "0.1.0"
+description = ""
+authors = ["canonrock16 <canonrock0401@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+# jupyterlab関連
+jupyterlab = "^3.0.16"
+jupyterlab-vim = "^0.14.2"
+lckr-jupyterlab-variableinspector = "^3.0.9"
+jupyterlab-code-formatter = "^1.4.10"
+dask-labextension = "^5.0.2"
+
+# lint
+black = "^21.6b0"
+isort = "^5.8.0"
+flake8 = "^3.9.2"
+dask = {extras = ["complete"], version = "^2021.6.1"}
+tqdm = "^4.61.1"
+mypy = "^0.910"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
