@@ -1,0 +1,24 @@
+# jupyterlab関連
+jupyterlab
+jupyterlab-vim
+lckr-jupyterlab-variableinspector
+jupyterlab-code-formatter
+dask-labextension
+
+# lint
+black==21.6b0
+isort==5.8.0
+flake8==3.9.2
+dask[complete]
+tqdm==4.61.1
+mypy==0.910
+
+pydub
+torch
+torchvision
+torchaudio
+# torch==1.7.0+cpu
+# torchvision==0.8.1+cpu 
+# torchaudio==0.7.0
+matplotlib
+
