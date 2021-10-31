@@ -8,7 +8,7 @@ authors = ["canonrock16 <canonrock0401@gmail.com>"]
 python = "=3.9"
 
 # jupyterlab関連
-jupyterlab = "^3.0.16"
+jupyterlab = "^3.2.0"
 jupyterlab-vim = "^0.14.2"
 lckr-jupyterlab-variableinspector = "^3.0.9"
 jupyterlab-code-formatter = "^1.4.10"
@@ -21,9 +21,16 @@ flake8 = "^3.9.2"
 dask = {extras = ["complete"], version = "^2021.6.1"}
 tqdm = "^4.61.1"
 mypy = "^0.910"
-bindsnet = {git = "https://github.com/BindsNET/bindsnet.git"}
 
-[tool.poetry.dev-dependencies]
+
+pydub = "^0.25.1"
+matplotlib = "^3.4.3"
+ipywidgets = "^7.6.5"
+bindsnet = {git = "https://github.com/BindsNET/bindsnet.git"}
+torch = "<1.9.1"
+torchvision = "<0.10.1"
+torchaudio = "<0.9.1"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
